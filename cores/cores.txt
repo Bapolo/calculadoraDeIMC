@@ -1,0 +1,7 @@
+cor principal: #111F36
+cor tabelas: #203357
+cor do btn: #036776
+laranja: #B55D08
+amarelo: #B57808
+verde: #889409
+primeiro verde: #5C862C 

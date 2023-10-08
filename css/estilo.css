@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fcfcfc;
+}
+
+body
+{
+    background: #111F36;
+    padding-top: 2rem;
+}
+
+main 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main #principal, table
+{
+    background-color: #203357;
+    width: 40%;
+    max-width: 100%;
+    margin: 0.5rem auto;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main h1
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+main input[type=number], main label, main input[type=submit]
+{
+    display: block;
+    margin: 0.8rem;
+    text-align: center;
+}
+
+main input[type=number], main label
+{
+    font-weight: 300;
+}
+
+main input[type=number]
+{
+    background-color: #111F36;
+    border: none;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.2rem;
+}
+
+main input[type=number]:active
+{
+    border: none;
+}
+
+main input[type=submit]
+{
+    width: 40%;
+    margin: 1rem auto;
+    background-color: rgb(3, 103, 118);
+    border: none;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+main input[type=submit]:hover
+{
+    box-shadow: inset 1px 1px 4px rgba(200, 200, 200, 0.5);
+}
+
+main input[type=submit]:active
+{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+main table 
+{
+    margin: 0.5rem auto;
+    padding: 0;
+    background-color: #111F36;
+}
+
+main table tr
+{
+    background-color: #203357;
+}
+
+main table th
+{
+    text-align: center;
+    background-color: #036776;
+    font-weight: 400;
+}
+
+main table th
+,main table td
+{
+    padding: 0.3rem;
+    margin: 0 01rem;
+}
+
+main table td 
+{
+    text-align: left;
+    font-weight: 350;
+}
+
+main section span
+{
+    display: inline-block;
+    margin: 0 0.2rem;
+}
+
+@media (max-width: 600px)
+{
+    main #principal, table
+    {
+        width: 98%;
+    
+    }
+
+    main input[type=number]
+    {
+        width: 80%;
+    }
+
+    main input[type=submit]
+    {
+        width: 50%;
+    }
+
+}
